@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ALI ONE EMPIRE Coffee & Fast Food. Fresh food, great taste. Order on WhatsApp in Kigali, Rwanda.">
+<meta name="theme-color" content="#111111">
+<title>ALI ONE EMPIRE | Coffee & Fast Food</title>
+<style>
+:root{--orange:#ff7a00;--black:#101010;--cream:#fff7ed;--muted:#bdb7b0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#101010;color:#fff;font-family:Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:#101010ed;border-bottom:1px solid #ffffff18;backdrop-filter:blur(10px)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:15px 0}.brand{font-weight:900;letter-spacing:1px}.brand span{color:var(--orange)}nav{display:flex;gap:20px;align-items:center;font-size:14px;color:#eee}
+.btn{display:inline-flex;align-items:center;justify-content:center;background:var(--orange);color:#17100a;font-weight:800;border:0;border-radius:999px;padding:12px 19px;cursor:pointer}
+.lang{background:#242424;color:#fff;border:1px solid #555;border-radius:30px;padding:9px 12px;cursor:pointer}
+.hero{padding:76px 0 66px;background:radial-gradient(ellipse at 80% 30%,#8d3c0b66,transparent 40%),linear-gradient(135deg,#171717,#090909)}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center}.eyebrow{color:var(--orange);font-weight:800;letter-spacing:3px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(42px,7vw,76px);line-height:1.02;margin:14px 0 18px;letter-spacing:-2px}h1 span{color:var(--orange)}.lead{color:#d0cbc5;max-width:560px;font-size:18px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.secondary{border:1px solid #777;border-radius:999px;padding:11px 18px;font-weight:700}
+.food-art{min-height:330px;border-radius:28px;background:linear-gradient(145deg,#292018,#141414);border:1px solid #ffffff20;display:grid;place-items:center;position:relative;overflow:hidden}
+.food-art:before,.food-art:after{content:"";position:absolute;border:1px solid #ff7a0050;border-radius:50%;width:280px;height:280px}.food-art:after{width:210px;height:210px}
+.food-emoji{font-size:clamp(100px,18vw,170px);filter:drop-shadow(0 15px 20px #000);z-index:1}
+section{padding:62px 0}.section-head{text-align:center;margin-bottom:30px}.section-head h2{font-size:34px;margin:5px 0}.section-head p{color:var(--muted);margin:0}
+.menu-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.item{background:#1b1b1b;border:1px solid #ffffff18;border-radius:18px;padding:22px;min-height:185px}.item .emoji{font-size:36px}.item h3{margin:8px 0 4px}.item p{margin:0;color:#c7c0b8;font-size:14px}.price{display:inline-block;color:var(--orange);font-size:13px;font-weight:800;margin-top:12px}
+.about{background:#171717}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.about-box{background:#24201c;border-radius:22px;padding:28px;border:1px solid #ffffff18}.about h2{font-size:34px;margin:0 0 12px}.about p{color:#d0cbc5}
+.contact{text-align:center}.contact-card{max-width:650px;margin:auto;padding:35px 22px;background:linear-gradient(140deg,#2b1b10,#1b1b1b);border:1px solid #ff7a0055;border-radius:24px}.phone{font-size:24px;font-weight:900;color:var(--orange);margin:10px 0 22px}
+footer{border-top:1px solid #ffffff18;padding:22px 0;color:#aaa;font-size:13px;text-align:center}
+@media(max-width:760px){nav{gap:10px}nav a{display:none}.hero{padding:55px 0}.hero-grid,.about-grid{grid-template-columns:1fr}.food-art{min-height:230px}.menu-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:440px){.menu-grid{grid-template-columns:1fr}.nav{flex-wrap:wrap}.brand{font-size:14px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <div class="brand">ALI ONE <span>EMPIRE</span></div>
+  <nav><a href="#home" data-en="Home" data-rw="Ahabanza">Home</a><a href="#menu" data-en="Menu" data-rw="Menu">Menu</a><a href="#about" data-en="About" data-rw="Abo turi bo">About</a><a href="#contact" data-en="Contact" data-rw="Twandikire">Contact</a></nav>
+  <button class="lang" id="langBtn" type="button">Kinyarwanda</button>
+</div></header>
+<main>
+<section class="hero" id="home"><div class="wrap hero-grid">
+ <div><div class="eyebrow">Coffee & Fast Food • Kigali, Rwanda</div>
+  <h1>Good food.<br><span>Great taste.</span></h1>
+  <p class="lead" data-en="Welcome to ALI ONE EMPIRE. Enjoy tasty pizza, burgers, sambusa, wraps, fries and coffee. Freshly prepared with care." data-rw="Murakaza neza muri ALI ONE EMPIRE. Turabagezaho pizza, burger, sambusa, wrap, frites na coffee biryoshye, biteguranywe ubwitonzi.">Welcome to ALI ONE EMPIRE. Enjoy tasty pizza, burgers, sambusa, wraps, fries and coffee. Freshly prepared with care.</p>
+  <div class="hero-actions"><a class="btn order" href="https://wa.me/250722250539?text=Hello%20ALI%20ONE%20EMPIRE%2C%20I%20would%20like%20to%20order." target="_blank" rel="noopener" data-en="ORDER ON WHATSAPP" data-rw="TEGEKA KURI WHATSAPP">ORDER ON WHATSAPP</a><a class="secondary" href="#menu" data-en="Explore Menu" data-rw="Reba Menu">Explore Menu</a></div>
+ </div>
+ <div class="food-art" aria-label="Food illustration"><div class="food-emoji">🍕🍔</div></div>
+</div></section>
+<section id="menu"><div class="wrap">
+ <div class="section-head"><div class="eyebrow">Our selection</div><h2 data-en="Our Menu" data-rw="Ibyo dutegura">Our Menu</h2><p data-en="Choose your favourite and order directly." data-rw="Hitamo icyo ukunda, ugitumize bitaziguye.">Choose your favourite and order directly.</p></div>
+ <div class="menu-grid">
+  <article class="item"><div class="emoji">🍕</div><h3>Pizza</h3><p data-en="Freshly prepared pizza with delicious toppings." data-rw="Pizza itegurwa neza, iriho ibyo kurisha biryoshye.">Freshly prepared pizza with delicious toppings.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+  <article class="item"><div class="emoji">🍔</div><h3>Burgers</h3><p data-en="Tasty burgers made fresh to order." data-rw="Burger ziryoshye, zitegurwa ari uko uzitumije.">Tasty burgers made fresh to order.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+  <article class="item"><div class="emoji">🥟</div><h3>Sambusa</h3><p data-en="Crispy savoury sambusa." data-rw="Sambusa zihiye neza kandi zikaranga." >Crispy savoury sambusa.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+  <article class="item"><div class="emoji">🌯</div><h3>Wraps</h3><p data-en="A satisfying wrap for any time of day." data-rw="Wrap iryoshye wakwishimira igihe icyo ari cyo cyose.">A satisfying wrap for any time of day.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+  <article class="item"><div class="emoji">🍟</div><h3>Fries</h3><p data-en="Golden, crispy fries." data-rw="Frites zihiye neza kandi zikaranga.">Golden, crispy fries.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+  <article class="item"><div class="emoji">☕</div><h3>Coffee</h3><p data-en="Enjoy a freshly prepared cup of coffee." data-rw="Ishimishe coffee iteguwe neza.">Enjoy a freshly prepared cup of coffee.</p><span class="price" data-en="Ask for price" data-rw="Baza igiciro">Ask for price</span></article>
+ </div>
+</div></section>
+<section class="about" id="about"><div class="wrap about-grid">
+ <div><div class="eyebrow">Quality • Taste • Innovation</div><h2 data-en="Made with care, served with pride." data-rw="Dutegura neza, tukabakorera twishimye.">Made with care, served with pride.</h2><p data-en="ALI ONE EMPIRE is here to make your food moments special. Contact us to ask about today's menu and prices." data-rw="ALI ONE EMPIRE iharanira ko wishimira ibyo kurya. Twandikire utubaze menu n'ibiciro by'uyu munsi.">ALI ONE EMPIRE is here to make your food moments special. Contact us to ask about today's menu and prices.</p></div>
+ <div class="about-box"><div style="font-size:42px">🧡</div><h3>ALI ONE EMPIRE</h3><p data-en="Coffee & Fast Food" data-rw="Coffee n'ibiryo byihuse">Coffee & Fast Food</p><strong style="color:#ff7a00">Quality • Taste • Innovation</strong></div>
+</div></section>
+<section class="contact" id="contact"><div class="wrap"><div class="contact-card">
+ <div class="eyebrow">Let's get your order started</div><h2 data-en="Order with us today" data-rw="Dutumize uyu munsi">Order with us today</h2>
+ <p data-en="Message us on WhatsApp for orders, prices and questions." data-rw="Twandikire kuri WhatsApp utumize, ubaze ibiciro cyangwa ibindi bibazo.">Message us on WhatsApp for orders, prices and questions.</p>
+ <div class="phone">+250 722 250 539</div>
+ <a class="btn order" href="https://wa.me/250722250539?text=Hello%20ALI%20ONE%20EMPIRE%2C%20I%20would%20like%20to%20order." target="_blank" rel="noopener" data-en="CHAT ON WHATSAPP" data-rw="TWANDIKIRE KURI WHATSAPP">CHAT ON WHATSAPP</a>
+ </div></div></section>
+</main>
+<footer><div class="wrap">© <span id="year"></span> ALI ONE EMPIRE • Coffee & Fast Food • Kigali, Rwanda</div></footer>
+<script>
+const btn=document.getElementById('langBtn');let lang='en';
+function setLang(next){lang=next;document.documentElement.lang=lang;document.querySelectorAll('[data-en]').forEach(el=>{el.textContent=el.dataset[lang]});btn.textContent=lang==='en'?'Kinyarwanda':'English'}
+btn.addEventListener('click',()=>setLang(lang==='en'?'rw':'en'));document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body></html>
